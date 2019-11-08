@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,14 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Denna sida är en del i kursen Teknisk webbdesign och användbarhet som ges på Blekinge Tekniska Högskola. I denna kurs fokuserar vi på design och användbarhet på området webb; bl.a. gällande färg, typografi, CSS, teman, PHP-ramverk och att anpassa webbplatser för funktionshindrade.
 
-Skriv några kloka ord om kursen?
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/htmlcss.jpg?w=450 caption="Såhär kan det se ut när man pluggar HTML och CSS."]

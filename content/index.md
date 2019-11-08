@@ -1,25 +1,29 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/jag.jpg?w=300" class="img-right" caption="En bild på mig på italiensemester."]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+<p class="index-text">Jag som pillar med denna sida heter Mette Hellemarck och läser webbprogrammering
+på distans från Blekinge Tekniska Högskola.</p>
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+<p class="index-text">Jag är 27 år gammal och bor i Malmö med sambo. Jag är född och uppvuxen i Ystad
+och har förutom i Malmö också bott i Oslo och Rom. Min främsta hobby är matlagning och läran om kost och näringsinnehåll, jag sysslar mycket med mikroodling och är ideellt engagerad i en liten förening och butik i Malmö som heter Ekolivs. Där tillhandahåller vi ekologisk och närodlad mat och håller i olika events osv. Roligt tycker jag! Ett annat intresse jag har är tv-fotboll, helst allt som involverar Liverpool FC!</p>
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+<p class="index-text">Tidigare i livet har jag jobbat som bartender, receptionist och i mataffär och så har jag studerat juridik och folkhälsa i några år. Jag ser fram emot att ta klivet in i IT-branschen genom denna utbildning, förhoppningsvis kan programmering och webbutveckling tillfredsställa ett skapande- och kreativitetsbehov jag saknat på tidigare områden.</p>
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+<p class="index-text">Vi hörs!</p>
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+<p class="index-text">/Mette</p>
