@@ -3,6 +3,12 @@ Revision history
 
 
 
+v1.0.2 (2019-11-11)
+------------------------
+
+* Final kmom01 page including report-text and footer update.
+
+
 v1.0.1 (2019-11-08)
 ------------------------
 

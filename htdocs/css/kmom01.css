@@ -101,7 +101,6 @@ body {
   overflow: hidden;
 }
 
-
 /*Main*/
 
 .inner-wrap-main {
@@ -161,6 +160,36 @@ h4 {
     padding: 10px 0;
 }
 
+.next {
+    float: right;
+    padding: 10px;
+}
+
+.previous {
+    padding: 10px;
+}
+
+.next, .previous a {
+    background-color: #cfafaf;
+    padding: 7px;
+    border-radius: 10%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* Byline */
+
+.left {
+    float: left;
+    padding: 20px 10px 10px 0;
+}
+
+.byline-text {
+    font-size: 14px;
+    padding: 30px 0;
+}
 
 /* Footer */
 
@@ -184,15 +213,7 @@ h4 {
     float: left;
 }
 
-/* Byline */
-
-.left {
-    float: left;
-    padding: 20px 10px 10px 0;
-}
-
-.byline-text {
-    padding: 10px;
-    font-size: 14px;
-    padding: 40px 0;
+p.copyright {
+    font-size: 12px;
+    color: black;
 }

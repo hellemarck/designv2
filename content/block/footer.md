@@ -1,1 +1,2 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+<p class="copyright">Copyright 2019, Mette Hellemarck -
+<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance">Unicorn</a></p>
