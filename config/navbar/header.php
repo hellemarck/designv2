@@ -1,3 +1,7 @@
+
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
 <?php
 /**
  * Supply the basis for the navbar as an array.

@@ -5,6 +5,9 @@
  * standard parts of the page, such as header, navbar, footer, stylesheets,
  * javascripts and more.
  */
+
+//är uppbyggda så att de returnerar en array
+
 return [
     // This layout view is the base for rendering the page, it decides on where
     // all the other views are rendered.
@@ -20,7 +23,8 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom01.css",
+                //"css/kmom01.css",
+                "css/kmom02.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

@@ -1,6 +1,21 @@
 ---
-title: "Min fina titel"
+title: "Testa MarkDown"
 views:
+    column1:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-redovisa
+
+    column2:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-kursrepo
     byline:
         region: main
         template: anax/v2/block/default
@@ -9,6 +24,8 @@ views:
             meta:
                 type: single
                 route: block/byline
+
+
 ---
 Sida för att testa Markdown
 =========================

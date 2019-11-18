@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Hem"
 views:
     byline:
         region: main
@@ -14,7 +14,7 @@ Min me-sida i kursen design
 =========================
 
 
-[FIGURE src="image/jag.jpg?w=300" class="img-right" caption="En bild på mig på italiensemester."]
+[FIGURE src="image/jag.jpg?w=250" class="img-right" caption="En bild på mig på italiensemester."]
 
 <p class="index-text">Jag som pillar med denna sida heter Mette Hellemarck och läser webbprogrammering
 på distans från Blekinge Tekniska Högskola.</p>

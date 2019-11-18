@@ -1,0 +1,130 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ * this style over-writes style in layout.less from previous kmom
+ */
+
+/**
+ * Variables
+ */
+
+ /**
+ * text layout
+ */
+
+@p_text_font: "PT Sans";
+@h_text_font: "Barlow Semi Condensed";
+
+p {
+    font-family: @p_text_font;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+p a {
+    color: #333;
+}
+
+li a, .next a, .previous a {
+    font-family: @p_text_font;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: @h_text_font;
+}
+
+/**
+* Header layout
+*/
+
+.wrap-all {
+    max-width: 100%;
+}
+
+.outer-wrap-header {
+    background-color: #c3adaf; //#d9bfbf;
+    .clearfix();
+}
+
+.inner-wrap.inner-wrap-flash {
+    width: 100%;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+    background-color: #ccc;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.site-logo-text {
+    font-family: @h_text_font;
+    a {
+        color: #d9c7c7;
+        font-size: 40px;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+
+.my-navbar li {
+    display: inline-block;
+    background-color: #c3adaf;
+    padding: 2px 2px;
+    font-family: @h_text_font;
+}
+
+/**
+ * main layout
+ */
+
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.region-main {
+    width: 60%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {        // if region-main has side-bar
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {        // if region-main has 3 classes
+        width: 50%;
+    }
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.figure figcaption {        //utan punkt pga inte en klass
+    font-style: italic;
+    font-size: 12px;
+}
+
+/**
+ * footer layout - this style over-writes style in layout.less
+ */
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    background-color: #c3adaf;
+    color: #776c6a;
+}
