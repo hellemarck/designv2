@@ -5024,14 +5024,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #333;
+  background-color: #fff;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #000;
   background-color: #ddd;
-  font: 16px/1.5 "PT Sans";
+  font: 16px/1.5 serif;
 }
 img {
   max-width: 100%;
@@ -5437,12 +5437,6 @@ li a,
 .next {
   float: right;
 }
-h1,
-h2,
-h3,
-h4 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
-}
 h4 {
   line-height: 2;
   border-bottom: 1px solid #666;
@@ -5506,7 +5500,7 @@ ul.rm-small li {
   text-align: center;
 }
 .site-logo-text {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Barlow Semi Condensed";
 }
 .site-logo-text a {
   color: #d9c7c7;
@@ -5519,7 +5513,7 @@ ul.rm-small li {
 .my-navbar li {
   display: inline-block;
   background-color: #c3adaf;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Barlow Semi Condensed";
 }
 .my-navbar a {
   font-size: 18px;
@@ -5650,7 +5644,7 @@ ul.rm-small li {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background-color: #bc8f8f;
-  color: #fff;
+  color: white;
   text-align: center;
 }
 .column.footer-column {
@@ -5675,7 +5669,7 @@ ul.rm-small li {
   margin-right: 0.52083333%;
 }
 .footer-column h4 {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid white;
 }
 hr::after {
   content: none;
@@ -5749,3 +5743,9 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+h1,
+h2,
+h3,
+h4 {
+  color: #ccc;
+}

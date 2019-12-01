@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom03 where we use LESS.
  * remember that code might be overwritten by code below
@@ -5024,14 +5024,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #333;
+  background-color: #fff;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
   background-color: #ddd;
-  font: 16px/1.5 "PT Sans";
+  font: 16px/1.5 "Solway";
 }
 img {
   max-width: 100%;
@@ -5045,7 +5045,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Oswald";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5420,7 +5420,7 @@ hr::after {
 * text layout (from layout_kmom02.less)
 */
 p {
-  font-family: "PT Sans";
+  font-family: "Solway";
 }
 p a {
   color: #333;
@@ -5431,7 +5431,7 @@ li {
 li a,
 .next a,
 .previous a {
-  font-family: "PT Sans";
+  font-family: "Solway";
   color: #333;
 }
 .next {
@@ -5441,7 +5441,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Oswald";
 }
 h4 {
   line-height: 2;
@@ -5463,7 +5463,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #d9bfbf;
+  background-color: #404d5a;
 }
 .outer-wrap-header {
   display: inline;
@@ -5471,7 +5471,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #c3adaf;
+  background-color: #404d5a;
 }
 ul.rm-small li {
   list-style-type: none;
@@ -5506,7 +5506,7 @@ ul.rm-small li {
   text-align: center;
 }
 .site-logo-text {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Oswald";
 }
 .site-logo-text a {
   color: #d9c7c7;
@@ -5518,8 +5518,8 @@ ul.rm-small li {
 }
 .my-navbar li {
   display: inline-block;
-  background-color: #c3adaf;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  background-color: #404d5a;
+  font-family: "Oswald";
 }
 .my-navbar a {
   font-size: 18px;
@@ -5649,7 +5649,7 @@ ul.rm-small li {
 /* Footer */
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: #bc8f8f;
+  background-color: #404d5a;
   color: #fff;
   text-align: center;
 }
@@ -5749,3 +5749,105 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v29/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Plaster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Plaster'), local('Plaster-Regular'), url(https://fonts.gstatic.com/s/plaster/v11/DdTm79QatW80eRh4IilDPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Solway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
+}
+html {
+  background-color: #404d5a;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ccc;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  border-bottom: none;
+}
+h1 {
+  margin-bottom: 27px;
+}
+p {
+  color: #ccc;
+}
+p a {
+  color: #ccc;
+}
+legend {
+  color: #ccc;
+}
+.block a {
+  color: #b3b3b3;
+}
+.next a,
+.previous a,
+li a {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #b3b3b3;
+}
+td,
+th {
+  color: #b3b3b3;
+}
+.region-main {
+  margin-top: 20px;
+}
+.region-flash {
+  display: none;
+}
+.region-flash img {
+  width: 100%;
+  display: block;
+}
+.outer-wrap.outer-wrap-header {
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+.inner-wrap.inner-wrap-flash {
+  max-width: 100%;
+}
+.site-logo-text a {
+  font-family: "Plaster";
+  color: #ccc;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.site-logo-text-icon {
+  display: none;
+}
+.rm-navbar ul {
+  margin-top: 26px;
+  margin-bottom: 0;
+  color: #ccc;
+}
+.region-footer {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+.footer-column h4 {
+  border-bottom: none;
+}
+.footer-column p {
+  font-size: 12px;
+  line-height: 2;
+}

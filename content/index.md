@@ -10,9 +10,13 @@ views:
                 type: single
                 route: block/byline
 ---
+<br>
+Välj designinställningar:
+<a style="color: #82404f" href="http://www.student.bth.se/~mehe19/dbwebb-kurser/design/me/redovisa/htdocs/?style=04_colorful">Färgglad design</a> || <a style="color: #65798c" href="http://www.student.bth.se/~mehe19/dbwebb-kurser/design/me/redovisa/htdocs/?style=04_dark">Mörk design</a> || <a style="color: #ccc" href="http://www.student.bth.se/~mehe19/dbwebb-kurser/design/me/redovisa/htdocs/?style=04_minimalistic">Minimalistisk design (standard)</a>
+<br>
+
 Min me-sida i kursen design
 =========================
-
 
 [FIGURE src="image/jag.jpg?w=250" class="img-right" caption="En bild på mig på italiensemester."]
 

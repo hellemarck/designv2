@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Plaster|Solway&display=swap');
+
+@wrap_all_bgcolor: #404d5a;
+@header_bgcolor: #404d5a;
+@footer_bg: #404d5a;
+@p_color: #ccc;
+@h_color: #ccc;
+@a_color: #b3b3b3;
+
+// overwriting typogr grid as I want
+@fontFamilyBody:     "Solway";
+@fontFamilyHeadings: "Oswald"; //
+
+// magic number and base fontsize - to adjust
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+@bgColorHtml: #fff;
+
+html {
+    background-color: @wrap_all_bgcolor;
+}
+
+h1, h2, h3, h4, h5 {
+    color: @h_color;
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+h1 {
+//    font-size: 2em;
+    margin-bottom: 27px;
+}
+
+p {
+    color: @p_color;
+    a {
+        color: @p_color;
+    }
+}
+
+legend {
+    color: @p_color;
+}
+
+.block a {
+    color: @a_color;
+}
+
+// style with variables
+
+.next a, .previous a, li a {
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+    color: @a_color;
+}
+
+td, th {
+    color: @a_color;
+}
+
+.region-main {
+    margin-top: 20px;
+}
+
+.region-flash {
+    display: none;
+    //height: 80px;
+    //overflow: hidden;
+}
+
+.region-flash img {
+    width: 100%;
+    display: block;
+}
+
+.outer-wrap.outer-wrap-header {
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.inner-wrap.inner-wrap-flash {
+    max-width: 100%;
+}
+
+.site-logo-text a {
+    font-family: "Plaster";
+    color: @p_color;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.site-logo-text-icon {
+    display: none;
+}
+
+.rm-navbar ul {
+    margin-top: 26px;
+    margin-bottom: 0;
+    color: @p_color;
+}
+
+.region-footer {
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+.footer-column {
+    h4 {
+        border-bottom: none;
+    }
+    p {
+        font-size: 12px;
+        line-height: 2;
+    }
+}

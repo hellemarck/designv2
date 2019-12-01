@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Libre+Franklin|Oxygen|Plaster|Ubuntu&display=swap');
+
+// Variables
+
+@bgColorHtml: #CC687F;
+@bgColorBody: #CC687F;
+@accentFontColor: #48CC58;
+
+@wrap_all_bgcolor: #CC687F;
+@header_bgcolor: #FFF54F;
+@color_p: #FFF54F;
+@footer_bg: #FFF54F;
+@header_footer_p: #6C36FF;
+
+@fontFamilyBody:     "Oxygen";
+@fontFamilyHeadings: "Dosis"; //
+
+// magic number and base fontsize
+
+@magicNumber:  24px;
+@fontSizeBody: 16px;
+
+//@accentBgColor: #fff;
+
+// Style
+
+h1, h2, h3, h4, h5 {
+    color: @accentFontColor;
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p, legend {
+    color: @color_p;
+}
+
+td, th {
+    color: @color_p;
+}
+
+.next a, .previous a, li a {
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+    color: @accentFontColor;
+}
+
+code {
+    background-color: @header_footer_p;
+}
+
+.inner-wrap-main .row {
+    min-height: 400px;
+}
+
+.region-main .article {
+    padding-top: 8px;
+}
+
+.region-flash {
+    height: 80px;
+    overflow: hidden;
+}
+
+.region-flash img {
+    width: 100%;
+    display: block;
+}
+
+.outer-wrap-header {
+    width: 100%;
+}
+
+.outer-wrap.outer-wrap-header {
+    margin: 0;
+    border-bottom: 1px solid black;
+    max-width: 100%;
+    padding: 0;
+}
+
+.inner-wrap .inner-wrap-header {
+    width: 100%;
+}
+
+
+.inner-wrap.inner-wrap-flash {
+    max-width: 100%;
+}
+
+.site-logo-text a {
+    font-family: "Ubuntu";
+    color: @header_footer_p;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.site-logo-text-icon {
+    display: none;
+}
+
+.rm-navbar ul {
+    margin-top: 26px;
+    margin-bottom: 0;
+
+    li a {
+        color: @header_footer_p;
+    }
+}
+
+.block a, p a {
+    color: @accentFontColor;
+}
+
+.region-footer {
+    margin-top: 10px;
+}
+
+.footer-column {
+    h4 {
+        border-bottom: none;
+        color: @header_footer_p;
+    }
+    p {
+        font-size: 12px;
+        color: @header_footer_p;
+    }
+    a {
+        color: @header_footer_p;
+    }
+}
+
+.site-footer p {
+    color: @header_footer_p;
+}

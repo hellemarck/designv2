@@ -5031,7 +5031,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #ddd;
-  font: 16px/1.5 Cambria, Georgia, Times, 'Times New Roman', serif;
+  font: 16px/1.5 "PT Sans";
 }
 img {
   max-width: 100%;
@@ -5437,6 +5437,12 @@ li a,
 .next {
   float: right;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+}
 h4 {
   line-height: 2;
   border-bottom: 1px solid #666;
@@ -5500,7 +5506,7 @@ ul.rm-small li {
   text-align: center;
 }
 .site-logo-text {
-  font-family: "Barlow Semi Condensed";
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
 }
 .site-logo-text a {
   color: #d9c7c7;
@@ -5513,7 +5519,7 @@ ul.rm-small li {
 .my-navbar li {
   display: inline-block;
   background-color: #c3adaf;
-  font-family: "Barlow Semi Condensed";
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
 }
 .my-navbar a {
   font-size: 18px;
@@ -5644,7 +5650,7 @@ ul.rm-small li {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background-color: #bc8f8f;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 .column.footer-column {
@@ -5669,7 +5675,7 @@ ul.rm-small li {
   margin-right: 0.52083333%;
 }
 .footer-column h4 {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
 }
 hr::after {
   content: none;

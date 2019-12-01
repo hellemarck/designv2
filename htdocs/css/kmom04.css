@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom03 where we use LESS.
  * remember that code might be overwritten by code below
@@ -5031,7 +5031,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #ddd;
-  font: 16px/1.5 "PT Sans";
+  font: 16px/1.5 "Arial";
 }
 img {
   max-width: 100%;
@@ -5045,7 +5045,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Arial";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5420,7 +5420,7 @@ hr::after {
 * text layout (from layout_kmom02.less)
 */
 p {
-  font-family: "PT Sans";
+  font-family: "Arial";
 }
 p a {
   color: #333;
@@ -5431,7 +5431,7 @@ li {
 li a,
 .next a,
 .previous a {
-  font-family: "PT Sans";
+  font-family: "Arial";
   color: #333;
 }
 .next {
@@ -5441,7 +5441,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Arial";
 }
 h4 {
   line-height: 2;
@@ -5463,7 +5463,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #d9bfbf;
+  background-color: #fff;
 }
 .outer-wrap-header {
   display: inline;
@@ -5471,7 +5471,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #c3adaf;
+  background-color: #fff;
 }
 ul.rm-small li {
   list-style-type: none;
@@ -5506,10 +5506,10 @@ ul.rm-small li {
   text-align: center;
 }
 .site-logo-text {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Arial";
 }
 .site-logo-text a {
-  color: #d9c7c7;
+  color: #000;
   font-size: 40px;
   text-decoration: none;
 }
@@ -5518,8 +5518,8 @@ ul.rm-small li {
 }
 .my-navbar li {
   display: inline-block;
-  background-color: #c3adaf;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  background-color: #fff;
+  font-family: "Arial";
 }
 .my-navbar a {
   font-size: 18px;
@@ -5649,8 +5649,8 @@ ul.rm-small li {
 /* Footer */
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: #bc8f8f;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   text-align: center;
 }
 .column.footer-column {
@@ -5675,7 +5675,7 @@ ul.rm-small li {
   margin-right: 0.52083333%;
 }
 .footer-column h4 {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 hr::after {
   content: none;
