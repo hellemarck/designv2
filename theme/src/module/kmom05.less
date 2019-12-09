@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Libre+Franklin|Oxygen|Plaster|Ubuntu&display=swap');
+
+@wrap_all_bgcolor: #fff;
+@header_bgcolor: #fff;
+@footer_bg: #fff;
+@p_color: #404040;
+@h_color: #8a8a8a;
+//@maxContentWidth: 700px;
+
+// overwriting typogr grid as I want
+@fontFamilyBody:     "Oxygen";
+@fontFamilyHeadings: "Dosis"; //
+
+// magic number and base fontsize - to adjust
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+@bgColorHtml: #fff;
+
+h1, h2, h3, h4, h5 {
+    color: @h_color;
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+h1 {
+//    font-size: 2em;
+}
+
+h4 {
+//    margin: 10px 0;
+}
+
+p {
+    color: @p_color;
+}
+
+// style with variables
+
+.next a, .previous a, li a {
+    font-family: @fontFamilyHeadings;
+    text-transform: uppercase;
+}
+
+.region-main {
+//    margin-top: 20px;
+}
+
+.region-flash {
+    display: none;
+    //height: 80px;
+    //overflow: hidden;
+}
+
+.region-flash img {
+    width: 100%;
+    display: block;
+}
+
+.outer-wrap.outer-wrap-header {
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.inner-wrap.inner-wrap-flash {
+    max-width: 100%;
+}
+
+.site-logo-text a {
+    font-family: "Ubuntu";
+    color: #ccc;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.site-logo-text-icon {
+    display: none;
+}
+
+.rm-navbar ul {
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
+.region-footer {
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+.footer-column {
+    h4 {
+        border-bottom: none;
+    }
+    p {
+        font-size: 12px;
+        line-height: 2;
+    }
+}
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 775px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+h1 a {
+    color: #8a8a8a;
+}

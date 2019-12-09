@@ -4816,7 +4816,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   text-decoration: none;
   white-space: nowrap;
-  padding: 1em 0.7em;
+  padding: 1em;
   outline: none;
 }
 .rm-default ul {
