@@ -1,0 +1,107 @@
+/*!
+ * Stylesheet for design kmom06.
+ *
+ * This stylesheet is for the design course and kmom06 - designelements.
+ * remember that code might be overwritten by code below
+ */
+
+ /**
+  * Import mixins.
+  */
+
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+/**
+ * Normalize and reset the style.
+ */
+
+@import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    #desinax-hgrid.showGridAlt();
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+//@import "base/base.less";
+@import "base/base_kmom03.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+
+// Default grid, change to fit your requirements.
+//@columnWidth:   30;
+//@gutterWidth:   10;
+//@columns:       24;
+//@gridType:      "float"; // "flex"
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@bgColorHtml: white;
+@bgColorBody: #ddd;
+@colorBody: #333; // tydligen rubriktextfärg..
+@accentBgColor: #fff;
+@accentFontColor: #333; //alt denna
+
+@fontFamilyBody: "Gupter";
+@fontFamilyHeadings: "Josefin Sans";
+@wrap_all_bgcolor: #e2dbd0;
+@header_bgcolor: #e2dbd0;
+@site_logo_text: #78685c; //826957;
+@footer_bg: #dcd5c7;
+@footer_p: #333;
+
+// magic number and base fontsize - to adjust
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+@import "layout/designelement.less";

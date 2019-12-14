@@ -2,6 +2,12 @@ Revision history
 ======================
 
 
+v6.0.0 (2019-12-14)
+------------------------
+
+* Kmom06 with stylesheet "designelement" completed.
+
+
 v5.0.0 (2019-12-09)
 ------------------------
 
