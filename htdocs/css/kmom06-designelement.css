@@ -5783,7 +5783,8 @@ html {
 .site-logo-text a {
   font-family: "Amatic SC", sans-serif;
   font-size: 70px;
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px;
+  margin: 0 20px 20px 20px;
 }
 .rm-navbar {
   padding-top: 30px;
@@ -5831,9 +5832,22 @@ figcaption {
   background-color: #f0eae1;
   padding: 20px;
 }
+.img-container {
+  display: flex;
+  flex-flow: row | wrap;
+  justify-content: space-between;
+  min-height: 600px;
+}
+.img-design {
+  width: 23%;
+  height: 300px;
+}
 .inner-wrap.inner-wrap-header {
   background-image: radial-gradient(circle at 100% 150%, #e2dbd0 24%, #f5f3f0 24%, #f5f3f0 28%, #e2dbd0 28%, #e2dbd0 36%, #f5f3f0 36%, #f5f3f0 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, #e2dbd0 24%, #f5f3f0 24%, #f5f3f0 28%, #e2dbd0 28%, #e2dbd0 36%, #f5f3f0 36%, #f5f3f0 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, #f5f3f0 10%, #e2dbd0 10%, #e2dbd0 23%, #f5f3f0 23%, #f5f3f0 30%, #e2dbd0 30%, #e2dbd0 43%, #f5f3f0 43%, #f5f3f0 50%, #e2dbd0 50%, #e2dbd0 63%, #f5f3f0 63%, #f5f3f0 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, #f5f3f0 5%, #e2dbd0 5%, #e2dbd0 15%, #f5f3f0 15%, #f5f3f0 20%, #e2dbd0 20%, #e2dbd0 29%, #f5f3f0 29%, #f5f3f0 34%, #e2dbd0 34%, #e2dbd0 44%, #f5f3f0 44%, #f5f3f0 49%, transparent 49%, transparent), radial-gradient(circle at 0 50%, #f5f3f0 5%, #e2dbd0 5%, #e2dbd0 15%, #f5f3f0 15%, #f5f3f0 20%, #e2dbd0 20%, #e2dbd0 29%, #f5f3f0 29%, #f5f3f0 34%, #e2dbd0 34%, #e2dbd0 44%, #f5f3f0 44%, #f5f3f0 49%, transparent 49%, transparent);
   background-size: 100px 50px;
+}
+.inner-wrap-footer {
+  max-width: 1500px;
 }
 .outer-wrap.outer-wrap-footer {
   background-color: #e2dbd0;
@@ -5841,6 +5855,7 @@ figcaption {
   margin-top: 40px;
 }
 .inner-wrap.inner-wrap-footer {
+  padding: 20px;
   background-color: transparent;
   border-top: 3px dotted #78685c;
 }

@@ -1,6 +1,11 @@
 Revision history
 ======================
 
+v6.0.1 (2019-12-15)
+------------------------
+
+* Kmom06 with both 'designelement' and 'designprinciper' completed.
+
 
 v6.0.0 (2019-12-14)
 ------------------------

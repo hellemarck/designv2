@@ -12,8 +12,9 @@ html {
 .site-logo-text a { // "design"
     font-family: "Amatic SC", sans-serif;
     font-size: 70px;
-    padding: 10px 20px;
-//    text-shadow: 10px 5px #ccbdb1;
+    padding: 0 20px 10px 20px;
+    margin: 0 20px 20px 20px;
+    //    text-shadow: 10px 5px #ccbdb1;
 }
 
 .rm-navbar {
@@ -71,6 +72,18 @@ figcaption {
     //border-radius: 25px;
 }
 
+.img-container {
+    display: flex;
+    flex-flow: row | wrap;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.img-design {
+    width: 23%;
+    height: 300px;
+}
+
 .inner-wrap.inner-wrap-header {
     background-image:
     radial-gradient(circle at 100% 150%, #e2dbd0 24%, #f5f3f0 24%, #f5f3f0 28%, #e2dbd0 28%, #e2dbd0 36%, #f5f3f0 36%, #f5f3f0 40%, transparent 40%, transparent),
@@ -83,6 +96,10 @@ figcaption {
 
 .outer-wrap.outer-wrap-main {}
 
+.inner-wrap-footer {
+    max-width: 1500px;
+}
+
 .outer-wrap.outer-wrap-footer {
     background-color: #e2dbd0;
     background-image: linear-gradient(#e2dbd0, #a89f8f); //e2dbd0
@@ -91,6 +108,7 @@ figcaption {
 }
 
 .inner-wrap.inner-wrap-footer {
+    padding: 20px;
     background-color: transparent;
     border-top: 3px dotted #78685c;
 }

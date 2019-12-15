@@ -32,22 +32,22 @@ return [
                         "title" => "Redovisning för kmom02.",
                     ],
                     [
-                        "text" => "Kmom01",
+                        "text" => "Kmom03",
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
                     [
-                        "text" => "Kmom01",
+                        "text" => "Kmom04",
                         "url" => "redovisning/kmom04",
                         "title" => "Redovisning för kmom04.",
                     ],
                     [
-                        "text" => "Kmom01",
+                        "text" => "Kmom05",
                         "url" => "redovisning/kmom05",
                         "title" => "Redovisning för kmom05.",
                     ],
                     [
-                        "text" => "Kmom01",
+                        "text" => "Kmom06",
                         "url" => "redovisning/kmom06",
                         "title" => "Redovisning för kmom06.",
                     ],
@@ -78,11 +78,64 @@ return [
             "text" => "Rapporter",
             "url" => "rapport",
             "title" => "Rapporter i kursen.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Färgschema.",
+                    ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Laddningstid.",
+                    ],
+                    [
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport om designprinciper.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Designelement.",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Designprinciper.",
+                    ],
+                ],
+            ],
         ],
         [
             "text" => "Blogg",
             "url" => "blogg",
             "title" => "Blogg.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Dagens bild 1",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Dagens bild 1.",
+                    ],
+                    [
+                        "text" => "Dagens bild 2",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Dagens bild 2.",
+                    ],
+                    [
+                        "text" => "Dagens bild 3",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Dagens bild 3.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Design",
+            "url" => "design",
+            "title" => "Design.",
         ],
     ],
 ];
